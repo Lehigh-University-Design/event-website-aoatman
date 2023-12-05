@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Your Website Title</title>
+    <title>Camp Again</title>
+	<link rel="stylesheet" href="https://use.typekit.net/teb8gew.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+	
     <!-- Include any additional meta tags, external fonts, or scripts here inside the head -->
 </head>
 
@@ -13,20 +18,42 @@
     <!-- Your content goes here -->
     
     <header>
-        <h1>Your Website Header</h1>
-        <!-- Add logo, navigation, logo, or other header elements here based on your figma design file-->
-    </header>
-
-    <main>
-        <h2>Your Main Content</h2>
+		<h1>Camp Again</h1>
+			<input type="checkbox" id="active">
+			<label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+			<div class="wrapper">
+				<ul class="menu">
+					<li><a href="main.html" target="_blank">Main</a></li>
+					<li><a href="aboutcamp.html" target="_blank">About Camp</a></li>
+					<li><a href="location.html" target="_blank">2023 Location</a></li>
+					<li><a href="schedule.html" target="_blank">Schedule</a></li>
+					<li><a href="packinglist.html" target="_blank">Packing List</a></li>
+					<li><a href="faq.html" target="_blank">FAQ</a></li>
+					<li><a href="buytickets.html" target="_blank">Buy Tickets</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	
+        <!--<h2>Your Main Content</h2>-->
         <!-- The main content of your website goes here based on your figma design file-->
-    </main>
-
-    <footer>
-        <h2>Your Footer</h2>
-        <p><em>(Example credit info)</em> Site design and development by [YOUR NAME] for Web Design I Fall 2023 with Professor Jenny Kowalski. Images by [SOURCE] and [SOURCE]</p>
-        <!-- Footer content goes here, such as copyright information, links, etc. This is a good place for citing image sources-->
-    </footer>
+		<div>
+			<img src="images/camp_again_plogo.png" alt="camp again patch logo" class="primarylogo">
+		</div>
+	
+		<div>
+			<button type="button" class="button2"><a href="main.html">Camp Isn't Just For Kids Anymore..</a></button>
+		</div>
+	
+	<footer>
+		<img src="images/camp_again_plogo.png" alt="camp again patch logo" class="smaller_plogo">
+		<div class="ftrcontact">
+			<p>Contact Us At:</p>
+			<p>campagain@gmail.com</p>
+			<p>(123) 456 - 7890</p>
+			<!--<img src=""> NEED SOCIAL ICONS-->
+		</div>
+	</footer>
 
     <!-- Include any additional scripts or external libraries down here -->
 </body>
